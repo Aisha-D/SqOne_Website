@@ -1,0 +1,60 @@
+@import
+url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+/* centre the text*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* make the whole text have the raleway font type */
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+/* header stuff */
+header {
+    position: absolute; 
+    left: 0;
+    right: 0;
+    margin-top: 1em;
+
+}
+
+/* makes the bullet points disappear*/
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* makes lists into a line */
+nav li {
+    display: inline-block;
+    margin: 1em;
+}
+
+/* makes lists into a line. Remove pink background later.*/
+nav a {
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .5em;
+    color: white;
+}
+
+nav a:hover,
+nav a:focus{
+    color: lightpink
+}
+
+/*home-hero*/
+
+
+.home-hero {
+    background-image: url(img/Sky.jpg);
+    padding: 8em 0;
+}
+
