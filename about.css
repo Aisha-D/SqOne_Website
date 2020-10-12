@@ -12,6 +12,10 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    background-color: lightblue;
+}
+
+p {font-size: 18px;
 }
 
 /* header stuff */
@@ -58,3 +62,18 @@ nav a:focus{
     padding: 5em 0;
 }
 
+
+.centre {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+  }
+
+
+
+.centre2 {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    font-size: 10px;
+  } 
